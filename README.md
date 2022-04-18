@@ -1,1 +1,2 @@
 # pythonSeminare
+geàndert in pycharm
