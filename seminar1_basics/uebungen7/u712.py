@@ -41,13 +41,13 @@ def main():
     upper_str = "HALLO WELT"
     lower_str = "hallo universe"
     name = "friedrich"
-    text = "aaa bbb ccc aaa bbb ccc xxx mmm mmm mmm"
+    text = "u01_classes u02_vererbung ccc u01_classes u02_vererbung ccc xxx mmm mmm mmm"
     planeten = "merkur venus erde mars jupiter saturn uranus (neptun)"
     print(upper_str, "len:", len(upper_str))
     print(upper_str, upper_str.lower())
     print(lower_str, lower_str.upper())
     print(name, name.capitalize())
-    print(f"{text} beinhaltet {text.count('aaa')} aaa's")
+    print(f"{text} beinhaltet {text.count('u01_classes')} u01_classes's")
     print(f"{planeten} - erde2 steht an inde {planeten.find('erde2')} im text")
     print(f"{planeten} - erde steht an inde {planeten.index('erde')} im text")
     dig1 = "111"
@@ -60,8 +60,8 @@ def main():
     print(f"{dec} isdecimal - {dec.isdecimal()}")
     print(lower_str.replace("hallo", "hello"))
     print(text)
-    print(text.replace("aaa", "qqq", 1))  # only 1
-    print(text.replace("aaa", "qqq"))  # all
+    print(text.replace("u01_classes", "qqq", 1))  # only 1
+    print(text.replace("u01_classes", "qqq"))  # all
     print(name.startswith("fried"))
     print(name.endswith("rich"))
 
